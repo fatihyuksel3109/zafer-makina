@@ -58,11 +58,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="tr" className={inter.variable}>
       <body className="min-h-screen bg-gray-50 font-inter tracking-wide antialiased">
-        <Header />
+        {/* <Header /> */}
         <main className="flex-1">
           {children}
         </main>
-        <Footer />
+        {/* <Footer /> */}
       </body>
     </html>
   );
