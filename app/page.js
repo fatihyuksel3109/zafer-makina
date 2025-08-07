@@ -10,7 +10,7 @@ export default function ComingSoonPage() {
         background: 'linear-gradient(to bottom, #081323, #040815)',
       }}
     >
-      <div className="relative w-full max-w-7xl aspect-[4/3] px-4">
+      <div className="w-full max-w-7xl aspect-[4/3] px-4 py-12">
         <Image
           src="/images/zafermakina-yakinda.jpg"
           alt="Zafer Makina Yakında"
