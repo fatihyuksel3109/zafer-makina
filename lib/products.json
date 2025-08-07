@@ -1,0 +1,104 @@
+[
+  {
+    "id": "motor-yagi-filtresi-001",
+    "name": "Motor Yağı Filtresi - CAT 320D",
+    "serialNumber": "1R-0750",
+    "slug": "motor-yagi-filtresi-cat-320d",
+    "imageUrl": ["/images/products/oil-filter-1.jpg", "/images/products/oil-filter-2.jpg"],
+    "imgAlt": ["CAT 320D motor yağı filtresi ön görünüm", "CAT 320D motor yağı filtresi detay görünüm"],
+    "stockAvailability": true,
+    "contactOptions": {
+      "phoneNumber": "+90 212 555 0123",
+      "email": "satis@zaferismakina.com",
+      "whatsappLink": "https://wa.me/902125550123",
+      "contactFormLink": "/iletisim"
+    },
+    "lastUpdated": "2025-01-17T10:30:00Z",
+    "createdAt": "2024-12-01T08:00:00Z"
+  },
+  {
+    "id": "hidrolik-pompa-002",
+    "name": "Hidrolik Pompa - Komatsu PC200",
+    "serialNumber": "708-2G-00024",
+    "slug": "hidrolik-pompa-komatsu-pc200",
+    "imageUrl": ["/images/products/hydraulic-pump-1.jpg", "/images/products/hydraulic-pump-2.jpg"],
+    "imgAlt": ["Komatsu PC200 hidrolik pompa", "Komatsu PC200 hidrolik pompa bağlantı noktaları"],
+    "stockAvailability": false,
+    "contactOptions": {
+      "phoneNumber": "+90 212 555 0123",
+      "email": "satis@zaferismakina.com",
+      "whatsappLink": "https://wa.me/902125550123",
+      "contactFormLink": "/iletisim"
+    },
+    "lastUpdated": "2025-01-15T14:20:00Z",
+    "createdAt": "2024-11-15T09:30:00Z"
+  },
+  {
+    "id": "fren-balata-003",
+    "name": "Fren Balata Seti - Volvo L120",
+    "serialNumber": "11709525",
+    "slug": "fren-balata-seti-volvo-l120",
+    "imageUrl": ["/images/products/brake-pad-1.jpg", "/images/products/brake-pad-2.jpg"],
+    "imgAlt": ["Volvo L120 fren balata seti", "Volvo L120 fren balata montaj görünümü"],
+    "stockAvailability": true,
+    "contactOptions": {
+      "phoneNumber": "+90 212 555 0123",
+      "email": "satis@zaferismakina.com",
+      "whatsappLink": "https://wa.me/902125550123",
+      "contactFormLink": "/iletisim"
+    },
+    "lastUpdated": "2025-01-16T11:45:00Z",
+    "createdAt": "2024-10-20T12:15:00Z"
+  },
+  {
+    "id": "hava-filtresi-004",
+    "name": "Hava Filtresi - JCB 3CX",
+    "serialNumber": "32/925694",
+    "slug": "hava-filtresi-jcb-3cx",
+    "imageUrl": ["/images/products/air-filter-1.jpg", "/images/products/air-filter-2.jpg"],
+    "imgAlt": ["JCB 3CX hava filtresi", "JCB 3CX hava filtresi detay"],
+    "stockAvailability": true,
+    "contactOptions": {
+      "phoneNumber": "+90 212 555 0123",
+      "email": "satis@zaferismakina.com",
+      "whatsappLink": "https://wa.me/902125550123",
+      "contactFormLink": "/iletisim"
+    },
+    "lastUpdated": "2025-01-17T09:15:00Z",
+    "createdAt": "2024-12-05T10:45:00Z"
+  },
+  {
+    "id": "yakit-filtresi-005",
+    "name": "Yakıt Filtresi - Case 580M",
+    "serialNumber": "87803444",
+    "slug": "yakit-filtresi-case-580m",
+    "imageUrl": ["/images/products/fuel-filter-1.jpg", "/images/products/fuel-filter-2.jpg"],
+    "imgAlt": ["Case 580M yakıt filtresi", "Case 580M yakıt filtresi bağlantıları"],
+    "stockAvailability": true,
+    "contactOptions": {
+      "phoneNumber": "+90 212 555 0123",
+      "email": "satis@zaferismakina.com",
+      "whatsappLink": "https://wa.me/902125550123",
+      "contactFormLink": "/iletisim"
+    },
+    "lastUpdated": "2025-01-14T16:30:00Z",
+    "createdAt": "2024-11-28T13:20:00Z"
+  },
+  {
+    "id": "lastik-006",
+    "name": "Lastik 17.5-25 - Liebherr L566",
+    "serialNumber": "23.5R25",
+    "slug": "lastik-17-5-25-liebherr-l566",
+    "imageUrl": ["/images/products/tire-1.jpg", "/images/products/tire-2.jpg"],
+    "imgAlt": ["Liebherr L566 lastik 17.5-25", "Liebherr L566 lastik profil detayı"],
+    "stockAvailability": false,
+    "contactOptions": {
+      "phoneNumber": "+90 212 555 0123",
+      "email": "satis@zaferismakina.com",
+      "whatsappLink": "https://wa.me/902125550123",
+      "contactFormLink": "/iletisim"
+    },
+    "lastUpdated": "2025-01-12T08:45:00Z",
+    "createdAt": "2024-09-10T11:30:00Z"
+  }
+]
