@@ -13,10 +13,10 @@ export async function generateMetadata({ params }) {
   return {
     metadataBase: new URL('https://www.zaferismakina.com'),
     title: {
-      default: 'Zafer Makina - Ağır İş Makinası Yedek Parça',
+      default: 'Zafer Makina - İş Makinası Yedek Parça',
       template: '%s | Zafer Makina',
     },
-    description: 'Caterpillar, Komatsu, JCB, Case, Volvo ve Liebherr iş makinalarına özel yedek parçalar. Türkiye\'nin güvenilir ağır iş makinası yedek parça tedarikçisi.',
+    description: 'Caterpillar, Komatsu, JCB, Case, Volvo ve Liebherr iş makinalarına özel yedek parçalar. Türkiye\'nin güvenilir iş makinası yedek parça tedarikçisi.',
     keywords: ['iş makinası', 'yedek parça', 'caterpillar', 'komatsu', 'jcb', 'case', 'volvo', 'liebherr', 'hidrolik pompa', 'motor yağı filtresi', 'fren balata'],
     authors: [{ name: 'Zafer Makina' }],
     creator: 'Zafer Makina',
@@ -36,18 +36,30 @@ export async function generateMetadata({ params }) {
       type: 'website',
       locale: 'tr_TR',
       url: 'https://www.zaferismakina.com',
-      title: 'Zafer Makina - Ağır İş Makinası Yedek Parça',
-      description: 'Caterpillar, Komatsu, JCB, Case, Volvo ve Liebherr iş makinalarına özel yedek parçalar. Türkiye\'nin güvenilir ağır iş makinası yedek parça tedarikçisi.',
+      title: 'Zafer Makina - İş Makinası Yedek Parça',
+      description: 'Caterpillar, Komatsu, JCB, Case, Volvo ve Liebherr iş makinalarına özel yedek parçalar. Türkiye\'nin güvenilir iş makinası yedek parça tedarikçisi.',
       siteName: 'Zafer Makina',
     },
     twitter: {
       card: 'summary_large_image',
-      title: 'Zafer Makina - Ağır İş Makinası Yedek Parça',
+      title: 'Zafer Makina - İş Makinası Yedek Parça',
       description: 'Caterpillar, Komatsu, JCB, Case, Volvo ve Liebherr iş makinalarına özel yedek parçalar.',
     },
     verification: {
       google: 'google-site-verification-code',
     },
+    icons: {
+      icon: [
+        { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
+        { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+        { url: '/android-chrome-192x192.png', sizes: '192x192', type: 'image/png' },
+        { url: '/android-chrome-512x512.png', sizes: '512x512', type: 'image/png' },
+      ],
+      apple: [
+        { url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' },
+      ],
+    },
+    manifest: '/site.webmanifest',
   };
 }
 
@@ -60,17 +72,6 @@ export const viewport = {
 export default function RootLayout({ children }) {
   return (
     <html lang="tr" className={inter.variable}>
-      <head>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              if (window.location.pathname !== '/') {
-                window.location.replace('/');
-              }
-            `,
-          }}
-        />
-      </head>
       <body className="min-h-screen bg-gray-50 font-inter tracking-wide antialiased">
         {/* <Header /> */}
         <main className="flex-1">
